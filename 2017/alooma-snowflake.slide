@@ -1,0 +1,71 @@
+Scalable Analytics
+F*ck sampling
+26 Oct 2017
+
+John Adams
+CTO, Bringhub
+@tampajohn
+https://bringhub.com
+john@bringhub.com
+
+* Introduction
+A little bit about me
+
+.image alooma-snowflake/images/avatar.jpeg _ 200
+.caption _Beautiful_
+
+- CTO at Bringhub
+: a "native commerce" company spread between Los Angeles, New York, and DTSP. (CTO)
+- Husband of a wonderfully understanding wife and father of three amazing boys
+: best thing to happen to me
+- Lover of data
+: Data shouldn't have to be sampled, and why is your DB so big???!
+- Hater of PHP
+: Who doesn't hate PHP... I mean seriously
+
+* Obligatory Golang Plug
+The right language to use... pretty much always
+
+: We're huge fans of Golang at Bringhub.  When taking a look at various analytics vendors, we loved seeing first class support for Golang from our friends at snowflake
+
+.image alooma-snowflake/images/gopher.png
+.caption _Gopher_ by [[https://www.instagram.com/reneefrench/][Renée French]]
+
+* Agenda
+
+- History of Analytics at Bringhub
+- The problem(s)
+- The solution(s)
+- Going forward
+
+* History of Analytics at Bringhub
+
+* Syslog -> SQL
+A simple solution, and a great place to start.
+.image alooma-snowflake/images/logging.gif 300 _
+
+* But it wasn't perfect
+.image alooma-snowflake/images/rotating.gif 300 _
+- Log rotation crapping out ... oops
+- Fluentd memory usage ... yikes
+- SQL cluster ... $$$
+- Throughput under scale was an issue
+
+
+* DynamoDB -> Lambda -> Mongo -> Custom Dashboard
+A better solution for us... it allowed us to partition our data dynamically, and really scaled with our needs.
+
+.image alooma-snowflake/images/mongo.jpg
+
+* But... it wasn't perfect
+- Mongo Cluster for raw data ... $$$$$$$$$
+- Lambda debugging ... meh
+- Custom pipelines are expensive in engineering resources
+
+* Docker Cloud Hosted Go API -> Postgres
+Since we were finally able to cast off the shackles of our oppressors (PHP), and had decided a containerized Go based environment was the ultimate solution to our stack... we naturally wanted to write our analytics there.
+
+* Biggest Thanks:
+
+- [[http://alooma.com][Alooma]]
+- [[https://snowflake.net/][Snowflake]]
