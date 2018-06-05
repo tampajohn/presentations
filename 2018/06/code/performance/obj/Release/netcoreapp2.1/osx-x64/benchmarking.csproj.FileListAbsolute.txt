@@ -1,0 +1,17 @@
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/libhostpolicy.dylib
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/libhostfxr.dylib
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/benchmarking
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/benchmarking.deps.json
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/benchmarking.runtimeconfig.json
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/benchmarking.runtimeconfig.dev.json
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/benchmarking.dll
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/benchmarking.pdb
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.csprojAssemblyReference.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.csproj.CoreCompileInputs.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.RazorAssemblyInfo.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.RazorAssemblyInfo.cs
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.AssemblyInfoInputs.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.AssemblyInfo.cs
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.RazorTargetAssemblyInfo.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.dll
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/benchmarking.pdb

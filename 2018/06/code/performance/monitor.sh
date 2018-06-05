@@ -1,0 +1,1 @@
+jplot -interval 2.5s --url http://localhost:5002/debug/vars     memstats.HeapSys+memstats.HeapAlloc+memstats.HeapIdle+marker,counter:memstats.NumGC     counter:memstats.TotalAlloc     memstats.HeapObjects     memstats.StackSys+memstats.StackInuse

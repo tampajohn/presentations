@@ -1,0 +1,17 @@
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/libhostpolicy.dylib
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/libhostfxr.dylib
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/dotnet-performance
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/dotnet-performance.deps.json
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/dotnet-performance.runtimeconfig.json
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/dotnet-performance.runtimeconfig.dev.json
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/dotnet-performance.dll
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/bin/Release/netcoreapp2.1/osx-x64/dotnet-performance.pdb
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.csprojAssemblyReference.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.csproj.CoreCompileInputs.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.RazorAssemblyInfo.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.RazorAssemblyInfo.cs
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.AssemblyInfoInputs.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.AssemblyInfo.cs
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.RazorTargetAssemblyInfo.cache
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.dll
+/Users/johnadams/go/src/github.com/tampajohn/presentations/2018/06/code/performance/obj/Release/netcoreapp2.1/osx-x64/dotnet-performance.pdb

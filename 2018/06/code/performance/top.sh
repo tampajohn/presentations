@@ -1,0 +1,1 @@
+top -pid $(pgrep -d " -pid " performance)0

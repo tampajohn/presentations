@@ -1,0 +1,119 @@
+WTF is Go?
+6 June 2018
+
+John Adams
+CTO, Bringhub
+@tampajohn
+john@rungo.io
+
+* Introduction
+A little bit about me
+
+.image images/avatar.jpeg _ 200
+.caption _Beautiful_
+
+- CTO at Bringhub
+- Husband of a wonderfully understanding wife and father of three amazing boys
+- Firm believer that Go is the right language to use... pretty much always
+- Hater of PHP
+
+* Things we'll chat about today
+
+- What Go is
+- What Go isn't
+- Go vs ...
+
+.image images/STAR_TREK_GOPHER.png _ 400
+
+* What Go is
+
+* A systems programming language for the distributed world
+Go is the language behind Cloudflare, Docker, K8S, Ethereum, Hyperledger, etc
+
+.image images/DockerGopher.png _ 500
+
+* Simple, fast and concurrent
+Go is very "batteries included", easy to read, and easy to get up and running. 
+
+.play code/simple/main.go /START OMIT/,/END OMIT/
+
+* Resource friendly
+Many contemporary languages seem to take up resources that are available, versus only what they need... this is not the case with Go.
+
+In order to explore this we'll spin up a simple web server and put a load on it of 5000 requests per sec.
+
+.code code/performance/main.go /START OMIT/,/END OMIT/
+_visualized_using_jaggr_and_jplot_
+
+* Resource friendly (cont)
+Let's compare this usage to that of a simple .Net Core 2.1 Webserver doing the same
+
+.code code/performance/Startup.cs /START OMIT/,/END OMIT/
+
+* /Cloud|Desktop|Laptop/ friendly (and statically compiled)
+Google, AWS, Digital Ocean and Azure all support running Go.  
+
+Go also happens to be insanely easy to cross-compile assemblies... so no matter what OS you're running, you'll find Go apps easy to run.
+
+.code code/cloud-friendly/cloud.sh
+.image images/SPACEGIRL1.png _ 200
+
+* Object Oriented via Composition
+Go takes a new approach to implemementing OO constructs... by simply trashing things that aren't recommended... such as objects.
+
+- Implements over Extends
+- No inheritance
+- Implicit implementation
+- Handle your fucking errors... 
+
+* What Go isn't
+
+* Terse
+If you're looking to do the most while writing the fewest number of lines possible... Go's not for you.  The gopher is chatty, and intentionally so...
+
+.image images/This_is_Fine_Gopher.png _ 500
+
+* Magic
+The creators of Go have been meticulous in crafting this language, and work to ensure a lack of "Magic".
+
+- One loop to rule them all... the for loop
+- Maps aren't supposed to be sorted... so don't expect them to be
+- Concurrency != Parallelism... but it makes Parallelism easy
+- Generics aren't necessary... and they add a lot of complexity
+- Simple is better than clever -- Rob Pike
+
+.image images/Unicorn_Gopher.png _ 200
+
+* PHP
+{Insert Rant Here}
+
+- Not dynamically typed... +1
+- Facebook didn't need to write a compiler for it... to make it faster... +1
+- Facebook didn't need to write a VM for it... to make it faster... +1
+- Not interpreted... so it's fast +1
+- Language actually has best practices enforced... +100
+- Single binary distribution
+
+.image images/gopher-php.png _ 160
+
+* Python
+One of the defacto "runs anywhere, does anything" languages.  Python is great, but once again it's dynamic... requires python to be installed... blah blah.
+
+- Statically typed
+- Concurrency is cheap via Goroutines... vs python threads
+- Single binary distribution
+- Gofmt vs Arbitrary formatting arguments galore... 
+
+.image images/golang-python.png _ 300
+
+* .Net/Java
+These behemoths are where you used to go when you needed performance at enterprise scale... and they are great for writing clever code... but is that what we want?
+
+- No runtime (cough cough yes I know I can statically compile .Net core now... but seriously... look at that memory usage)
+- Single binary distribution
+- No generics (is this good?)
+- No inheritance (is this good?)
+- No dependency injection (is this good?)
+
+* Conclusion
+Go isn't for everyone, and it takes a team dedicated to writing code that is maintainable, well thought out, and something they want to be proud of.  Like all languages, you can write bad Go code... but the language itself actually makes attempts to stop this at every turn.
