@@ -63,8 +63,16 @@ Go takes a new approach to implemementing OO constructs... by simply trashing th
 
 - Implements over Extends
 - No inheritance
-- Implicit implementation
-- Handle your fucking errors... 
+- Implicit implementation 
+
+* Opinionated
+Go is a very opinionated language... which can feel a little brash at times, but appreciated in the end.
+
+- Handle your errors!
+- Don't assign variables that aren't used (won't compile)
+- Don't declare variables that aren't used (won't compile)
+- Document your public funcs (warning)
+- Use gofmt to format your code!!!!! 
 
 * What Go isn't
 
@@ -78,11 +86,13 @@ The creators of Go have been meticulous in crafting this language, and work to e
 
 - One loop to rule them all... the for loop
 - Maps aren't supposed to be sorted... so don't expect them to be
-- Concurrency != Parallelism... but it makes Parallelism easy
+- Concurrency != Parallelism... but it makes Parallelism easy (Watch Rob Pike's video at Waza 2012)
 - Generics aren't necessary... and they add a lot of complexity
 - Simple is better than clever -- Rob Pike
 
 .image images/Unicorn_Gopher.png _ 200
+
+* Go vs... 
 
 * PHP
 {Insert Rant Here}
@@ -117,3 +127,10 @@ These behemoths are where you used to go when you needed performance at enterpri
 
 * Conclusion
 Go isn't for everyone, and it takes a team dedicated to writing code that is maintainable, well thought out, and something they want to be proud of.  Like all languages, you can write bad Go code... but the language itself actually makes attempts to stop this at every turn.
+
+* Resources
+
+- Golang.org
+- https://blog.heroku.com/concurrency_is_not_parallelism
+- https://go-proverbs.github.io/
+- 
