@@ -1,5 +1,5 @@
 echo 'GET http://localhost:5002/endpoint' | \
-    vegeta attack -rate 5000 -duration 10m | vegeta dump | \
+    vegeta attack -rate 5000 -duration 2m | vegeta dump | \
     jaggr @count=rps \
           hist\[100,200,300,400,500\]:code \
           p25,p50,p95:latency \

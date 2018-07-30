@@ -125,12 +125,15 @@ These behemoths are where you used to go when you needed performance at enterpri
 - No inheritance (is this good?)
 - No dependency injection (is this good?)
 
+* Wrapping it up
+
 * Conclusion
 Go isn't for everyone, and it takes a team dedicated to writing code that is maintainable, well thought out, and something they want to be proud of.  Like all languages, you can write bad Go code... but the language itself actually makes attempts to stop this at every turn.
 
 * Resources
 
-- Golang.org
-- https://blog.heroku.com/concurrency_is_not_parallelism
-- https://go-proverbs.github.io/
-- 
+.link https://golang.org Golang
+.link https://go-proverbs.github.io/ Go Proverbs
+.link https://blog.heroku.com/concurrency_is_not_parallelism Concurrency != Parallelism - Rob Pike
+.link https://code.visualstudio.com/docs/languages/go VS Code + Go == :)
+.link https://github.com/fatih/vim-go vimg-go for you vim folk
